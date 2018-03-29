@@ -1,0 +1,25 @@
+@font-face {
+  font-family: header1;
+  src: url(../fonts/Pacifico.ttf);
+}
+
+@font-face {
+  font-family: greyText;
+  src: url(../fonts/Arizonia-Regular.ttf);
+}
+
+
+#result {
+  background-color: yellow;
+  text-align: center;
+}
+
+#leftBox {
+  background-color: yellow;
+  width: 300px;
+  height: 500px;
+}
+
+#headerPage {
+  text-align: center;
+}
