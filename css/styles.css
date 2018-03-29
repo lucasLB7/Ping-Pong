@@ -8,6 +8,10 @@
   src: url(../fonts/bat.ttf);
 }
 
+#containBox {
+  width: 100%;
+  padding: 1%;
+}
 
 #result {
   background-color: yellow;
@@ -42,4 +46,50 @@
 #output li {
   font-family: greyText;
   font-size: 60px;
+}
+
+#dragLeft {
+  text-align: center;
+  border: 3px blue solid;
+  background-image: url(../images/fallingMan.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+#dragLeft h2 {
+  font-family: greyText;
+  font-size: 52px;
+  color: white;
+}
+
+#dragLeft p {
+  font-family: header1;
+  font-size: 20px;
+  color: white;
+
+}
+#dragLeft h1 {
+  font-family: greyText;
+  font-size: 40px;
+  color: darkred;
+}
+#dragLeft h1:hover {
+  font-size: 60px;
+}
+
+#gameBegin h1 {
+  font-size: 35px;
+  font-family: greyText;
+}
+
+#gameBegin p {
+  font-size: 15px;
+  font-family: header1;
+}
+
+#blue {
+  color: blue;
 }

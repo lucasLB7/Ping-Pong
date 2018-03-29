@@ -1,4 +1,4 @@
-//backend code. The function create_pin is the logic end with no user end elements.
+//backend
 function create_ping(num){
 var numList = [];
   for (i=1; i<=num; i+=1){
@@ -19,9 +19,12 @@ var numList = [];
   }
   return numList;
 }
+// THis is the end of our first function
+//
+function countPing(numList){
+}
 
 
-//FrontEnd of the program, this will append to the unorganied list Ul.
 
 $(document).ready(function() {
     $("form#WillitPong").submit(function(event) {
@@ -31,6 +34,7 @@ $(document).ready(function() {
       var numList=create_ping(num);
       numList.forEach(function(item){
         $("ul#output").append("<li>"+item+"</li>");
+        $("#gameBegin").html("<p>The game has begun...Did you guess right???<br>and how many did you guess correctly?<br><br>See with your friends if they can also guess correctly the total abount of divisibles.... </p>");
       });
 
 

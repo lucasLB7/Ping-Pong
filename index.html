@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="container-flex">
+  <div class="container-flex" id="containBox">
 
 
     <div class="jumbotron" id="headerPage">
@@ -23,22 +23,35 @@
 
     </div>
     <div style="backgroundContent">
-
-
       <div class="row text-center">
-        <form id="WillitPong">
-          <label for="year">Enter a year and find out if it's a leap year:</label>
-          <input id="pongs" type="text">
-      </div>
 
+
+
+        <form id="WillitPong">
+          <label for="year">Key in a number: </label>
+          <input id="pongs" type="number">
+      </div>
       <div class="row text-center">
         <button class="btn btn-primary" id="addButton">Add Numbers</button>
       </div>
       </form>
+
+
+
       <div class="row">
-        <div class="col-md-2">Website made by Lucas Lambert</div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="dragLeft">
+          <h1>Website made by:</h1>
+          <h2>Lucas lambert</h2>
+          <p>This website was designed & created by Lucas Benoit Lambert for the Moringa school project</p>
+        </div>
+        <div class="col-md-2">
           <ul id="output"></ul>
+        </div>
+        <div class="col-md-4" id=gameBegin>
+          <h1>Some instructions:   </h1>
+          <p>Simply key in a number in the box above to discover how many times you can divide by 3 and 5 or both.</p>
+          <p>Avoid Keying in extremelly high numbers as it could cause you pc to crash...</p>
+          <p id="blue">NOW THATS ANOTHER GAME WE DONT WANT TO PLAY TODAY...</p>
         </div>
 
       </div>
