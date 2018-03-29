@@ -8,47 +8,61 @@
 </head>
 
 <body>
-  <div class="container-flex">
+  <div class="container-flex" id="containBox">
 
 
     <div class="jumbotron" id="headerPage">
 
 
-      <h1>Game of Pongs</h1>
-      <p>Welcome to Game of Pongs. Are you worthy of this chellenge of masters.
-        <br>To use simply enter a number in the box below to find out if is divisible by 3, 5 or 15.
-        <br>LET'S PLAY!!!</p>
+      <h1>A Game of Pongs</h1>
+      <p>Welcome to Game of Pongs. Are you worthy of this <strong>challenge of masters</strong>!
+        <br>To use simply enter a number in the box below to find out if is divisible by 3... 5... or 15.
+      </p>
+      <h2>LET'S PLAY!!!</h2>
 
 
     </div>
+    <div style="backgroundContent">
+      <div class="row text-center">
 
-    <div class="row text-center">
-      <form id="WillitPong">
-        <label for="year">Enter a year and find out if it's a leap year:</label>
-        <input id="pongs" type="text">
+
+
+        <form id="WillitPong">
+          <label for="year">Key in a number: </label>
+          <input id="pongs" type="number">
+      </div>
+      <div class="row text-center">
+        <button class="btn btn-primary" id="addButton">Add Numbers</button>
+      </div>
+      </form>
+
+
+
+      <div class="row">
+        <div class="col-md-6" id="dragLeft">
+          <h1>Website made by:</h1>
+          <h2>Lucas lambert</h2>
+          <p>This website was designed & created by Lucas Benoit Lambert for the Moringa school project</p>
+        </div>
+        <div class="col-md-2">
+          <ul id="output"></ul>
+        </div>
+        <div class="col-md-4" id=gameBegin>
+          <h1>Some instructions:   </h1>
+          <p>Simply key in a number in the box above to discover how many times you can divide by 3 and 5 or both.</p>
+          <p>Avoid Keying in extremelly high numbers as it could cause you pc to crash...</p>
+          <p id="blue">NOW THATS ANOTHER GAME WE DONT WANT TO PLAY TODAY...</p>
+        </div>
+
+      </div>
     </div>
 
-    <div class="row text-center">
-      <button class="btn btn-primary" id="addButton">Add Numbers</button>
-    </div>
-    </form>
-
-    <ul id="output"></ul>
-
-  </div>
-  </div>
-  </div>
-  </div>
-
-
-
-  </div>
 
 
 
 
-  <script src="js/jquery.js"></script>
-  <script src="js/scripts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
