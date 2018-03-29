@@ -1,4 +1,4 @@
-//backend
+//backend code. The function create_pin is the logic end with no user end elements.
 function create_ping(num){
 var numList = [];
   for (i=1; i<=num; i+=1){
@@ -19,6 +19,9 @@ var numList = [];
   }
   return numList;
 }
+
+
+//FrontEnd of the program, this will append to the unorganied list Ul.
 
 $(document).ready(function() {
     $("form#WillitPong").submit(function(event) {
