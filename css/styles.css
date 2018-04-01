@@ -49,6 +49,7 @@
 }
 
 #dragLeft {
+  float: left;
   text-align: center;
   border: 3px blue solid;
   background-image: url(../images/fallingMan.jpg);
