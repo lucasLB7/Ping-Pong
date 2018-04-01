@@ -38,4 +38,26 @@ This site was made with intent of demonstrating the content leared in the Week
 
   ##FrontEnd jS
 
-  The front end is what confused me the most..:- 
+  The front end is what confused me the most..:--P
+
+  In this document, we create a function that will only run once all other elements of the website are loaded.
+
+  We then declare the form with the id WillitPong with a submit tag.
+  Event prevent default will stop the code from refreshing every time a user has completed the requirements.
+
+  We also make sure the form get cleared everytime we press the button. To do this we use the .empty method.
+
+  Here we declare num. Num is given by the input method in our html. The data is changed to integers.
+
+
+  Now we call the backend jS by declaring numList to be the function we created above.
+  Once it's run we append the data from numList into our ol.
+
+  The append function works better than htmt or text.
+
+  Lastly I made the text change when the function has begun.
+
+  ## css
+
+  Basic styling & bootstrap for the design of the page.
+  I styled the fonts and
