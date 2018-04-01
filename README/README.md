@@ -8,7 +8,8 @@ Welcome to my __third project__ on week three at Moringa school.
 This site was made with intent of demonstrating the content leared in the Week
  of Moringa.
 
- #The contents:
+ # The contents:
+   =============
 
 
  We demonstrate the use of javaScript language in a simple loop that determines whether numbers are divisible by 3, 5 or 3 & 5 (both).
@@ -18,7 +19,8 @@ This site was made with intent of demonstrating the content leared in the Week
  There were a number of ways to achieve this, either having a loop that return ping, pong or ping follow by pong.
  In my case I decided to create an else if statement for pingpong, instead of simply appending the pong to the ping in case it's divisible by both.
 
- ##Backend jS
+ ## Backend jS
+    ==========
 
  Here we create a function called create_ping and assign to it num.
  numList is an empty array we create that that will contain the return of the function. ie. Ping, pong or pingpong...
@@ -36,7 +38,8 @@ This site was made with intent of demonstrating the content leared in the Week
   The closing else statement declares that all numbers that do not fit the above requirements are to be returned as they are.
 
 
-  ##FrontEnd jS
+  ## FrontEnd jS
+  ==============
 
   The front end is what confused me the most..:--P
 
@@ -58,6 +61,7 @@ This site was made with intent of demonstrating the content leared in the Week
   Lastly I made the text change when the function has begun.
 
   ## css
+
 
   Basic styling & bootstrap for the design of the page.
   I styled the fonts and
