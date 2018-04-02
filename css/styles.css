@@ -94,3 +94,8 @@
 #blue {
   color: blue;
 }
+.about{
+  animation-duration: 5s;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+}
