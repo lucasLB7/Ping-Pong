@@ -43,6 +43,6 @@ $(document).ready(function() {
 
 
       });
-      $("#count").html("<p>The game has begun...Did you guess right???<br>and how many did you guess correctly?<br><br>See with your friends if they can also guess correctly the total abount of divisibles.... </p><ul><li>"+ping+"</li><li>"+pong+"</li><li>"+pingpong+"</li>");
+      $("#count").html("<p>The game has begun...Did you guess right???<br>and how many did you guess correctly?<br><br>See with your friends if they can also guess correctly the total abount of divisibles.... </p><ul><li>"+ping+" pings</li><li>"+pong+" pongs</li><li>"+pingpong+" pingpongs</li>");
   });
   });
